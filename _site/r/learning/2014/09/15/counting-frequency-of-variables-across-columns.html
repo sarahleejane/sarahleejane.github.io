@@ -10,8 +10,8 @@
     <meta name="description" content="A journey into data science.  Learning tools from R language to Bayesian models.  Meeting with other keen students and seasoned experts.  Sharing key tricks and useful insights along the way.  
 ">
 
-    <link rel="stylesheet" href="/blog//css/main.css">
-    <link rel="canonical" href="http://yourdomain.com/blog//r/learning/2014/09/15/counting-frequency-of-variables-across-columns.html">
+    <link rel="stylesheet" href="/notoriousbigdata/css/main.css">
+    <link rel="canonical" href="https://sarahleejane.github.io/notoriousbigdata/r/learning/2014/09/15/counting-frequency-of-variables-across-columns.html">
 </head>
 
 
@@ -21,7 +21,7 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/blog//">Notorious BIG (Data)</a>
+    <a class="site-title" href="/notoriousbigdata/">Notorious BIG (Data)</a>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -35,7 +35,7 @@
       <div class="trigger">
         
           
-          <a class="page-link" href="/blog//about/">About</a>
+          <a class="page-link" href="/notoriousbigdata/about/">About</a>
           
         
           
@@ -85,16 +85,19 @@ I tore my hair out trying to find a solution!</p>
 
 <p><em>Link to image /assets/count.chosens.per.column.png</em></p>
 
-<p>To finish up, we can now plot a simple bar chart of occurences per column.
-<em>My r stopped working and wouldn’t plot anything - get this working!!!!</em></p>
+<p>To finish up, we can now plot a simple bar chart of occurences per column.</p>
 
 <div class="highlight"><pre><code class="language-r" data-lang="r"><span class="c1">#plot bar chart of variable frequencies per column
-</span><span class="n">variable.freqs</span> <span class="o">&lt;-</span> 
-  <span class="n">ggplot</span><span class="p">(</span><span class="n">count.1s.per.column</span><span class="p">,</span> <span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">.id</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">V1</span><span class="p">))</span> <span class="o">+</span> 
+</span><span class="n">library</span><span class="p">(</span><span class="n">ggplot2</span><span class="p">)</span>
+<span class="n">chosen.per.lunch.item</span> <span class="o">&lt;-</span> 
+  <span class="n">ggplot</span><span class="p">(</span><span class="n">count.chosens.per.column</span><span class="p">,</span> <span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">.id</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">V1</span><span class="p">))</span> <span class="o">+</span> 
   <span class="n">geom_bar</span><span class="p">(</span><span class="n">stat</span><span class="o">=</span><span class="s2">"identity"</span><span class="p">,</span> <span class="n">colour</span><span class="o">=</span><span class="s2">"black"</span><span class="p">,</span> <span class="n">fill</span><span class="o">=</span><span class="s2">"white"</span><span class="p">)</span> <span class="o">+</span> 
-  <span class="n">xlab</span><span class="p">(</span><span class="s2">"column name"</span><span class="p">)</span> <span class="o">+</span> <span class="n">ylab</span><span class="p">(</span><span class="s2">"number of times 1 occured in column"</span><span class="p">)</span> 
+  <span class="n">xlab</span><span class="p">(</span><span class="s2">""</span><span class="p">)</span> <span class="o">+</span> <span class="n">ylab</span><span class="p">(</span><span class="s2">""</span><span class="p">)</span> 
 
-<span class="n">variable.freqs</span></code></pre></div>
+<span class="c1">#giving us the following plot
+</span><span class="n">chosen.per.lunch.item</span></code></pre></div>
+
+<p><em>Link to image /assets/chosen.per.lunch.item.png</em></p>
 
 <p>Always feel free to let me know if this is bad R practise, or if there is a better solution.</p>
 
@@ -116,7 +119,7 @@ I tore my hair out trying to find a solution!</p>
       <div class="footer-col  footer-col-1">
         <ul class="contact-list">
           <li>Notorious BIG (Data)</li>
-          <li><a href="mailto:sarah.lee.jane+big@gmail.com">sarah.lee.jane+big@gmail.com</a></li>
+          <li><a href="mailto:sarah.lee.jane@gmail.com">sarah.lee.jane@gmail.com</a></li>
         </ul>
       </div>
 

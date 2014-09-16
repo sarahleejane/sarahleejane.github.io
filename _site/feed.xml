@@ -4,10 +4,10 @@
     <title>Notorious BIG (Data)</title>
     <description>A journey into data science.  Learning tools from R language to Bayesian models.  Meeting with other keen students and seasoned experts.  Sharing key tricks and useful insights along the way.  
 </description>
-    <link>http://yourdomain.com/blog//</link>
-    <atom:link href="http://yourdomain.com/blog//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 16 Sep 2014 01:48:32 -0700</pubDate>
-    <lastBuildDate>Tue, 16 Sep 2014 01:48:32 -0700</lastBuildDate>
+    <link>https://sarahleejane.github.io/notoriousbigdata/</link>
+    <atom:link href="https://sarahleejane.github.io/notoriousbigdata/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 16 Sep 2014 13:30:12 -0700</pubDate>
+    <lastBuildDate>Tue, 16 Sep 2014 13:30:12 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -35,23 +35,26 @@ I tore my hair out trying to find a solution!&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;Link to image /assets/count.chosens.per.column.png&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;To finish up, we can now plot a simple bar chart of occurences per column.
-&lt;em&gt;My r stopped working and wouldn’t plot anything - get this working!!!!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;To finish up, we can now plot a simple bar chart of occurences per column.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;c1&quot;&gt;#plot bar chart of variable frequencies per column
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;variable.freqs&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; 
-  &lt;span class=&quot;n&quot;&gt;ggplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count.1s.per.column&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;V1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; 
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ggplot2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;chosen.per.lunch.item&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt; 
+  &lt;span class=&quot;n&quot;&gt;ggplot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;count.chosens.per.column&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;V1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; 
   &lt;span class=&quot;n&quot;&gt;geom_bar&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;stat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;identity&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;colour&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;black&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fill&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;white&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; 
-  &lt;span class=&quot;n&quot;&gt;xlab&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;column name&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ylab&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;number of times 1 occured in column&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
+  &lt;span class=&quot;n&quot;&gt;xlab&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;ylab&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; 
 
-&lt;span class=&quot;n&quot;&gt;variable.freqs&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;c1&quot;&gt;#giving us the following plot
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;chosen.per.lunch.item&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;em&gt;Link to image /assets/chosen.per.lunch.item.png&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Always feel free to let me know if this is bad R practise, or if there is a better solution.&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 15 Sep 2014 15:49:28 -0700</pubDate>
-        <link>http://yourdomain.com/blog//r/learning/2014/09/15/counting-frequency-of-variables-across-columns.html</link>
-        <guid isPermaLink="true">http://yourdomain.com/blog//r/learning/2014/09/15/counting-frequency-of-variables-across-columns.html</guid>
+        <link>https://sarahleejane.github.io/notoriousbigdata/r/learning/2014/09/15/counting-frequency-of-variables-across-columns.html</link>
+        <guid isPermaLink="true">https://sarahleejane.github.io/notoriousbigdata/r/learning/2014/09/15/counting-frequency-of-variables-across-columns.html</guid>
         
         
         <category>r</category>
