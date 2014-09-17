@@ -1,5 +1,5 @@
 # Site settings
-title: Notorious BIG (Data)
+title: "Notorious BIG (Data)"
 email: sarah.lee.jane@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   A journey into data science.  Learning tools from R language to Bayesian models.  Meeting with other keen students and seasoned experts.  Sharing key tricks and useful insights along the way.  
