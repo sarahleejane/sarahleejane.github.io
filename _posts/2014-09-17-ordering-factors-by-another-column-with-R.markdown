@@ -6,7 +6,7 @@ categories: Learning R
 ---
 
 ### Goal
-Plot a clear bar chart with x-axis labels appearing in the frequency with which they occur in the data frame.
+Plot a clear ggplot2 bar chart with x-axis labels appearing in the frequency with which they occur in the data frame.
 
 ### Data Sample
 Suppose we have a sample of students who come from different countries.  This gives us a data frame of student origins, and the number of students who come from each origin.
@@ -33,7 +33,7 @@ country.count.plot
 
 
 ### Solution (Up)
-Using the reorder function we are able to order *origin" factor by ascending *count*.
+Using the reorder function we are able to order *origin* factor by ascending *count*.
 
 {% highlight r %}
 #reorder origin by ascending count
