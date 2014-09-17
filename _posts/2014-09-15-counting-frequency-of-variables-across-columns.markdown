@@ -48,7 +48,3 @@ chosen.per.lunch.item
 *Link to image /assets/chosen.per.lunch.item.png*
 
 Always feel free to let me know if this is bad R practise, or if there is a better solution.
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
