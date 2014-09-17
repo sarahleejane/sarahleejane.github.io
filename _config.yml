@@ -10,4 +10,4 @@ github_username:  sarahleejane
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
+#highlighter: rouge
