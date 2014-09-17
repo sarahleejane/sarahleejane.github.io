@@ -11,8 +11,3 @@ github_username:  sarahleejane
 # Build settings
 markdown: kramdown
 #highlighter: rouge
-
-pages_list:       
-  About: '/about'
-  Archive: '/archive'
-  Feed: '/atom.xml'
