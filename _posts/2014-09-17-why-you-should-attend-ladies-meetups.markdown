@@ -13,10 +13,13 @@ Still, you can't judge a meetup by its cover - I had to bite the bullet and try 
 ### The meetup
 This ladies meetup was fantastic for a few key reasons:
 
--The subject was great no matter who attended
--There was never a mention of our gender
--Somehow the group felt instantly close - maybe because we all had two things in common - an interest and our gender. 
--I didn't feel afraid to ask questions.  I realised that if I meet a guy at a meetup, I assume he is an amazing tech genious who doesn't want to waste his time teaching me.  This is mostly definitely not true of course, but it does alter my behaviour.
+* The subject was great no matter who attended
+
+* There was never a mention of our gender
+
+* Somehow the group felt instantly close - maybe because we all had two things in common - an interest and our gender. 
+
+* I didn't feel afraid to ask questions.  I realised that if I meet a guy at a meetup, I assume he is an amazing tech genious who doesn't want to waste his time teaching me.  This is mostly definitely not true of course, but it does alter my behaviour.
 
 
 ### My gripes
