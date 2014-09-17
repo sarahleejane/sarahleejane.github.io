@@ -6,12 +6,9 @@ categories: Learning R
 ---
 
 ### Goal
-Counting the number of times a certain value occured in a column, across many columns, in a data frame.  This sounds simple but
-I tore my hair out trying to find a solution!
+Count the number of times a certain value occurs in each column of a data frame.  Imagine a set of columns that work like a set of tick boxes, for each row they can show true or false, 0 or 1, cat or dog or zebra etc.  This sounds simple but I tore my hair out trying to find a solution!
 
 ### Data Sample
-Imagine a set of columns that work like a set of tick boxes, for each row they can show true or false, 0 or 1, cat or dog or zebra etc.
-
 Suppose we have a sample of lunch box orders.  Every row represents an order, and each column represents a lunch item that can be *chosen* or *not chosen*.
 
 {% highlight r %}
@@ -22,7 +19,7 @@ lunch.box.df
 ![Lunch box data frame](/assets/lunch.box.df.png)
 
 ### Solution
-Using the ldply function we are able to count how many times a certain value appears per column.  This can be an integer or a factor etc.
+Using the ldply function we are able to count how many times a certain value appears per column.  This can be an factor, integer or a string.
 
 {% highlight r %}
 #count number of chosen's in each column
