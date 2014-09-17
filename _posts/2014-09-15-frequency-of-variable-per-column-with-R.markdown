@@ -9,8 +9,8 @@ categories: Learning R
 Counting the number of times a certain value occured in a column, across many columns, in a data frame.  This sounds simple but
 I tore my hair out trying to find a solution!
 
-### Example Sample
-Imagine a set of columns that work as a tick box, for each row they can show true or false, 0 or 1, cat or dog or zebra etc.
+### Data Sample
+Imagine a set of columns that work like a set of tick boxes, for each row they can show true or false, 0 or 1, cat or dog or zebra etc.
 
 Suppose we have a sample of lunch box orders.  Every row represents an order, and each column represents a lunch item that can be *chosen* or *not chosen*.
 
@@ -52,4 +52,5 @@ chosen.per.lunch.item
 
 ![Lunch box count plot](/assets/chosen.per.lunch.item.png)
 
-Always feel free to let me know if this is bad R practise, or if there is a better solution.
+### Feedback
+Always feel free to get in touch with other solutions, general thoughts or questions.
