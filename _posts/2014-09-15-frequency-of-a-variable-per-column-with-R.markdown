@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "frequency of variable across column with R"
+title:  "frequency of a variable per column with R"
 date:   2014-09-15 22:49:28
 categories: Learning R
 ---
