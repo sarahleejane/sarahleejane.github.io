@@ -4,10 +4,10 @@
     <title>Notorious BIG (Data)</title>
     <description>A journey into data science.  Learning tools from R language to Bayesian models.  Meeting with other keen students and seasoned experts.  Sharing key tricks and useful insights along the way.  
 </description>
-    <link>https://sarahleejane.github.io/notoriousbigdata/</link>
-    <atom:link href="https://sarahleejane.github.io/notoriousbigdata/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 16 Sep 2014 15:26:05 -0700</pubDate>
-    <lastBuildDate>Tue, 16 Sep 2014 15:26:05 -0700</lastBuildDate>
+    <link>https://sarahleejane.github.io/</link>
+    <atom:link href="https://sarahleejane.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 16 Sep 2014 21:54:04 -0700</pubDate>
+    <lastBuildDate>Tue, 16 Sep 2014 21:54:04 -0700</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -53,8 +53,8 @@ I tore my hair out trying to find a solution!&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 15 Sep 2014 15:49:28 -0700</pubDate>
-        <link>https://sarahleejane.github.io/notoriousbigdata/r/learning/2014/09/15/counting-frequency-of-variables-across-columns.html</link>
-        <guid isPermaLink="true">https://sarahleejane.github.io/notoriousbigdata/r/learning/2014/09/15/counting-frequency-of-variables-across-columns.html</guid>
+        <link>https://sarahleejane.github.io/r/learning/2014/09/15/counting-frequency-of-variables-across-columns.html</link>
+        <guid isPermaLink="true">https://sarahleejane.github.io/r/learning/2014/09/15/counting-frequency-of-variables-across-columns.html</guid>
         
         
         <category>r</category>
