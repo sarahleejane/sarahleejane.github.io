@@ -1,12 +1,15 @@
 ---
 layout: post
-title:  "counting frequency of variables across columns with R"
+title:  "frequency of variable across column with R"
 date:   2014-09-15 22:49:28
 categories: Learning R
 ---
+
+### Goal
 Counting the number of times a certain value occured in a column, across many columns, in a data frame.  This sounds simple but
 I tore my hair out trying to find a solution!
 
+### Example Sample
 Imagine a set of columns that work as a tick box, for each row they can show true or false, 0 or 1, cat or dog or zebra etc.
 
 Suppose we have a sample of lunch box orders.  Every row represents an order, and each column represents a lunch item that can be *chosen* or *not chosen*.
@@ -16,8 +19,9 @@ Suppose we have a sample of lunch box orders.  Every row represents an order, an
 lunch.box.df
 {% endhighlight %}
 
-*Link to image /assets/lunch.box.df.png*
+![Lunch box data frame](/assets/lunch.box.df.png)
 
+### Solution
 Using the ldply function we are able to count how many times a certain value appears per column.  This can be an integer or a factor etc.
 
 {% highlight r %}
@@ -29,8 +33,9 @@ count.chosens.per.column <- ldply(lunch.box.df, function(c) sum(c=="chosen"))
 count.chosens.per.column
 {% endhighlight %}
 
-*Link to image /assets/count.chosens.per.column.png*
+![Lunch box count per column](/assets/count.chosens.per.column.png)
 
+### Visualised Result
 To finish up, we can now plot a simple bar chart of occurences per column.
 
 {% highlight r %}
@@ -45,6 +50,6 @@ chosen.per.lunch.item <-
 chosen.per.lunch.item
 {% endhighlight %}
 
-*Link to image /assets/chosen.per.lunch.item.png*
+![Lunch box count plot](/assets/chosen.per.lunch.item.png)
 
 Always feel free to let me know if this is bad R practise, or if there is a better solution.
