@@ -11,4 +11,5 @@ github_username:  sarahleejane
 
 # Build settings
 markdown: kramdown
+excerpt_separator: <!--more-->
 #highlighter: rouge

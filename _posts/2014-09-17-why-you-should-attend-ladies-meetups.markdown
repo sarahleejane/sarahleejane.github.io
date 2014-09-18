@@ -7,6 +7,7 @@ categories: Opinion Networking
 
 ### The dilemma
 I noticed a few women-focused tech meetups.  The subjects sounded great, but I wasn't sure how a women-only event would feel.  I'm not a big believer in women gathering together to discuss being women.  
+<!--more-->
 
 Still, you can't judge a meetup by its cover - I had to bite the bullet and try it at least once.  
 
