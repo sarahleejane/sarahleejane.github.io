@@ -10,7 +10,7 @@ categories: Learning
 * [MapReduce](https://github.com/sarahleejane/MapReduce-Basics) - inverted indices, relational joins, social network analysis.
 * Relational database design - class diagrams, relation schemes, normal forms.
 * Predictive modelling - survival prediction model for Titanic passengers using R. 
-* Re-marketing for [AnyRoad](https://www.anyroad.com/) - deriving customer segments, from raw data using R and from Google Analytics, for re-marketing campaigns.
+* Customer segmentation [AnyRoad](https://www.anyroad.com/) - deriving customer segments, from raw data using R, from Google Analytics.
 * AB testing for [AnyRoad](https://www.anyroad.com/) - AB testing page features using Google Analytics.
 
 
