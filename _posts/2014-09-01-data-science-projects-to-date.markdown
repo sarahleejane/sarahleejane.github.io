@@ -2,6 +2,7 @@
 layout: post
 title:  "data science projects to date"
 categories: Learning
+---
 
 ### My projects so far include:
 * ([Twitter tweet analysis](https://github.com/sarahleejane/Tweet-Sentiment)) - tweet sentiment, regional sentiment, term frequency.
