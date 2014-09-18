@@ -23,6 +23,9 @@ body {
     -webkit-text-size-adjust: 100%;
 }
 
+site-header {
+background:#99FF99;
+}
 
 
 /**
@@ -160,7 +163,6 @@ pre {
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
-    background:#99FF99;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
