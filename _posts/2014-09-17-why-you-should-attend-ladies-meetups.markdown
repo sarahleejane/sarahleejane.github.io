@@ -22,7 +22,7 @@ This ladies meetup was fantastic for a few key reasons:
 * I didn't feel afraid to ask questions.  I realised that if I meet a guy at a meetup, I assume he is an amazing tech genious who doesn't want to waste his time teaching me.  This is mostly definitely not true of course, but it does alter my behaviour.
 
 
-### My gripes
+### Gripes
 A man who attended.  I appreciate you shouldn't close an event to a certain type of person.  But seriously, it felt so wierd that a guy turned up to a very explicitly stated women's event.
 
 
