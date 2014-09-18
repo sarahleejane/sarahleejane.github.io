@@ -5,8 +5,10 @@ date:   2014-09-15 22:49:28
 categories: Learning R
 ---
 
-### Goal
-Count the number of times a certain value occurs in each column of a data frame.  Imagine a set of columns that work like a set of tick boxes, for each row they can show true or false, 0 or 1, cat or dog or zebra etc.  This sounds simple but I tore my hair out trying to find a solution!
+Count the number of times a certain value occurs in each column of a data frame.  
+<!--more-->
+
+Imagine a set of columns that work like a set of tick boxes, for each row they can show true or false, 0 or 1, cat or dog or zebra etc.  This sounds simple but I tore my hair out trying to find a solution!
 
 ### Data Sample
 Suppose we have a sample of lunch box orders.  Every row represents an order, and each column represents a lunch item that can be *chosen* or *not chosen*.

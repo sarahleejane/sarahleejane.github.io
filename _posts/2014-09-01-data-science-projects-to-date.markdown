@@ -4,6 +4,9 @@ title:  "data science projects to date"
 categories: Learning
 ---
 
+Up-to-date summary of all my journeys into data science challenges.
+<!--more-->
+
 ### My projects so far include:
 * [Twitter tweet analysis](https://github.com/sarahleejane/Tweet-Sentiment) - tweet sentiment, regional sentiment, term frequency.
 * [SQL fundamentals](https://github.com/sarahleejane/Playing-SQL) - complex queries, keyword searches, matrix multiplication.
