@@ -5,12 +5,30 @@
     // border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-    background:#99FF99;
-    border-bottom: 1px solid #e8e8e8;
+    //border-bottom: 1px solid #e8e8e8;
     padding: 20px 0;
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+  //width: 618px;
+  height: 100px;
+  margin: -2px;
+  padding: -1px;
+  border: none;
+  background: -webkit-linear-gradient(90deg, rgba(255,0,102,0) 20%, rgba(255,0,102,0.0980392) 20%, rgba(255,0,102,0.0980392) 40%, rgba(255,0,102,0.2) 40%, rgba(255,0,102,0.2) 60%, rgba(255,0,102,0.4) 60%, rgba(255,0,102,0.4) 80%, rgba(255,0,102,0.6) 80%), -webkit-linear-gradient(180deg, rgba(255,0,102,0) 20%, rgba(255,0,102,0.0980392) 20%, rgba(255,0,102,0.0980392) 40%, rgba(255,0,102,0.2) 40%, rgba(255,0,102,0.2) 60%, rgba(255,0,102,0.4) 60%, rgba(255,0,102,0.4) 80%, rgba(255,0,102,0.6) 80%), #2ecc71;
+  background: -moz-linear-gradient(0deg, rgba(255,0,102,0) 20%, rgba(255,0,102,0.0980392) 20%, rgba(255,0,102,0.0980392) 40%, rgba(255,0,102,0.2) 40%, rgba(255,0,102,0.2) 60%, rgba(255,0,102,0.4) 60%, rgba(255,0,102,0.4) 80%, rgba(255,0,102,0.6) 80%), -moz-linear-gradient(-90deg, rgba(255,0,102,0) 20%, rgba(255,0,102,0.0980392) 20%, rgba(255,0,102,0.0980392) 40%, rgba(255,0,102,0.2) 40%, rgba(255,0,102,0.2) 60%, rgba(255,0,102,0.4) 60%, rgba(255,0,102,0.4) 80%, rgba(255,0,102,0.6) 80%), #2ecc71;
+  background: linear-gradient(0deg, rgba(255,0,102,0) 20%, rgba(255,0,102,0.0980392) 20%, rgba(255,0,102,0.0980392) 40%, rgba(255,0,102,0.2) 40%, rgba(255,0,102,0.2) 60%, rgba(255,0,102,0.4) 60%, rgba(255,0,102,0.4) 80%, rgba(255,0,102,0.6) 80%), linear-gradient(-90deg, rgba(255,0,102,0) 20%, rgba(255,0,102,0.0980392) 20%, rgba(255,0,102,0.0980392) 40%, rgba(255,0,102,0.2) 40%, rgba(255,0,102,0.2) 60%, rgba(255,0,102,0.4) 60%, rgba(255,0,102,0.4) 80%, rgba(255,0,102,0.6) 80%), #2ecc71;
+  background-position: auto auto;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 100% auto;
+  background-size: 100% auto;
+  -webkit-box-shadow: 3px 3px 4px 0 rgba(0,0,0,0.4) ;
+  box-shadow: 3px 3px 4px 0 rgba(0,0,0,0.4) ;
+
 }
 
 .site-title {
@@ -19,6 +37,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    padding-top: 20px;
 
     &,
     &:visited {
