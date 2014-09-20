@@ -2,7 +2,7 @@
 layout: post
 title:  "data science projects to date"
 categories: Learning
-image: /assets/measure_globe.jpg
+image: /assets/measure_globe.png
 ---
 
 Up-to-date summary of all my journeys into data science challenges.
@@ -17,7 +17,7 @@ Up-to-date summary of all my journeys into data science challenges.
 * Customer insights for [AnyRoad](https://www.anyroad.com/) - customer segmentation, R data analysis, Google Lists.
 * AB testing for [AnyRoad](https://www.anyroad.com/) - AB testing page features using Google Analytics.
 
-![Big data holds the answers](/assets/measure_globe.jpg)
+![Big data holds the answers](/assets/measure_globe.png)
 
 
 ### Opportunities & Collaboration
