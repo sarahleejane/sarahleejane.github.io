@@ -35,6 +35,8 @@ A man who attended.  I appreciate you shouldn't close an event to a certain type
 
 For any group, the more things everyone has in common, the closer members feel.  One girl was from the same country as me, and I instantly felt super comfortable chatting to her.  We shared an interest, our gender, and our nationality!
 
+![Finding your community rocks!](/assets/Community.jpg)
+
 
 ### Feedback
 Always feel free to get in touch with general thoughts or questions.

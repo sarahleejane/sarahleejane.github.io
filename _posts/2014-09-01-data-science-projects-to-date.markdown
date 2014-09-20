@@ -17,6 +17,8 @@ Up-to-date summary of all my journeys into data science challenges.
 * Customer insights for [AnyRoad](https://www.anyroad.com/) - customer segmentation, R data analysis, Google Lists.
 * AB testing for [AnyRoad](https://www.anyroad.com/) - AB testing page features using Google Analytics.
 
+![Big data holds the answers](/assets/measure_globe.jpg)
+
 
 ### Opportunities & Collaboration
 Always feel free to get in touch with opportunities.
