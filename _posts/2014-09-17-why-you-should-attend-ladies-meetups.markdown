@@ -3,6 +3,7 @@ layout: post
 title:  "why you should attend ladies' meetups"
 date:   2014-09-17 12:53:28
 categories: Opinion Networking
+image: /assets/Community.jpg
 ---
 
 I noticed a few women-focused tech meetups.  The subjects sounded great, but I wasn't sure how a women-only event would feel.  

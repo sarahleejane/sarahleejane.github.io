@@ -2,6 +2,7 @@
 layout: post
 title:  "data science projects to date"
 categories: Learning
+image: /assets/measure_globe.jpg
 ---
 
 Up-to-date summary of all my journeys into data science challenges.

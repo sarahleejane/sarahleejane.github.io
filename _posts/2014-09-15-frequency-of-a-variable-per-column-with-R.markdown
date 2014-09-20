@@ -3,6 +3,7 @@ layout: post
 title:  "frequency of a variable per column with R"
 date:   2014-09-15 22:49:28
 categories: Learning R
+image: /assets/chosen.per.lunch.item.png
 ---
 
 Count the number of times a certain value occurs in each column of a data frame.  

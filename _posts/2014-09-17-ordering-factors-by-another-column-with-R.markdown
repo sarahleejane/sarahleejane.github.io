@@ -3,6 +3,7 @@ layout: post
 title:  "ordering factors by another column with R"
 date:   2014-09-17 12:23:28
 categories: Learning R
+image: /assets/descending_origins.png
 ---
 
 Plot a clear ggplot2 bar chart with x-axis labels appearing in the frequency with which they occur in the data frame.
