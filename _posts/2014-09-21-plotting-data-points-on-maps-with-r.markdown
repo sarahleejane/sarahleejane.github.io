@@ -21,7 +21,7 @@ cities
 
 
 ### Simple plot of data points
-The *geom_point* function plots points on the base map plot.  The base map plot *base_world* was created in a previous post - [plotting beautiful clear maps with R](http://sarahleejane.github.io/learning/r/2014/09/17/plotting-beautiful-clear-maps-with-R.html).    
+The *geom_point* function plots points on the base map plot.  The base map plot *base_world* was created in a previous post - [plotting beautiful clear maps with R](http://sarahleejane.github.io/learning/r/2014/09/20/plotting-beautiful-clear-maps-with-r.html).    
 
 The *pch* function let's us define an outline and inner fill for each point.  If you play with this number, you get different shaped points.  
 
