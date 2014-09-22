@@ -29,22 +29,22 @@ Switzerland
 Malta
 {% endhighlight %}
 
-![Switzerland map data](/assets/switzerland.png)
+![Switzerland map data](/assets/Switzerland.png)
 
 For Switzerland we can see the border *long* & *lat* location points, and in what *order* to join them together.  Also Switzerland is grouped as 21.
 Plotting these location points on a map using an online tool, you can see how they follow the Swiss border.
 
-![Swiss border points](/assets/swissborderpoints.png)
+![Swiss border points](/assets/swissborderpoints.PNG)
 
 
 Now let's see what Malta looks like.
 
-![Malta map data](/assets/malta.png)
+![Malta map data](/assets/Malta.png)
 
 For Malta we also see that there are two *subregions*, Malta and Gozo, which are grouped under 350 and 2038 respectively.
 This subregion is necessary because Gozo is a seperate island from Malta.  The map below marks Gozo, an island of Malta.
 
-![Malta Gozo map](/assets/maltagozo.png)
+![Malta Gozo map](/assets/maltagozo.PNG)
 
 
 
