@@ -30,7 +30,7 @@ To figure out if something is actually being signified, we should try and answer
 The standard deviation of the duration for first babies is 2.8 weeks.  For not first babies it is 2.6 weeks.  
 So there appears to be more variation in duration length for first babies.
 
-**Descriptive Finding 2: First born babies have more variation in pregnany duration**
+**Descriptive Finding 1: First born babies have more variation in pregnany duration**
 
 
 The difference in standard deviation is 0.2 weeks.
@@ -46,9 +46,9 @@ The histogram we plot gives an overview of the data.  The sample size of first a
 The Probability Mass Function (PMF) shows the probability distribution for each sample.  Each distribution adds up to 1.  
 We can see that first babies are less likely to be born in week 39 and are more likely to be born in weeks 41 and 42.
 
-**Descriptive Finding 3: First born babies seem less likely to arrive in week 39**
+**Descriptive Finding 2: First born babies seem less likely to arrive in week 39**
 
-**Descriptive Finding 4: First born babies seem more likely to arrive in weeks 41 and 42**
+**Descriptive Finding 3: First born babies seem more likely to arrive in weeks 41 and 42**
 
 ![PMF of pregnancy durations](/assets/pmf_pregnancies.png)
 
@@ -66,9 +66,9 @@ For not first born babies, we get:  early 16.8%, on time 73.8%, late 9.4%
 The relative risk is the rato of two probabilities.  To get the relative risk of a first born arriving early, we calculate *probability(early first born) / probability(early not first born)*.  
 The relative risk of a first born being early is 18.2 / 16.8 = 1.08.  The relative risk of a first born being late is 1.66. 
 
-**Descriptive Finding 5: Early first babies are 8% more likely than other babies**
+**Descriptive Finding 4: Early first babies are 8% more likely than other babies**
 
-**Descriptive Finding 6: Late first babies are 66% more likely than other babies**
+**Descriptive Finding 5: Late first babies are 66% more likely than other babies**
 
 #### Conditional Probability
 We can calculate the probability that a baby will be born in week *x* given that it was not born before week *x*.
