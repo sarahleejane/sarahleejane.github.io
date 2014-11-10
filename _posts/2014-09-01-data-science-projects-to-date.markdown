@@ -10,7 +10,7 @@ Up-to-date summary of all the data science challenges I have completed so far.
 
 ### My projects so far include:
 * [Machine Learning with linear regression](https://github.com/sarahleejane/Linear-Regression-in-Octave) coded vectorized cost function, gradient descent function and normalized equation function for regression predictions in Octave.
-# [Machine Learning with logistic regression](https://github.com/sarahleejane/Logistic-Regression-in-Octave) used advanced optimization functions to calculate regularized cost function and implement gradient descent for classification predictions in Octave.
+* [Machine Learning with logistic regression](https://github.com/sarahleejane/Logistic-Regression-in-Octave) used advanced optimization functions to calculate regularized cost function and implement gradient descent for classification predictions in Octave.
 * Predictive modelling - created a survival prediction model for Titanic passengers in R. 
 * [Twitter tweet analysis](https://github.com/sarahleejane/Tweet-Sentiment) - deduced the happiest U.S. State by establishing the sentiment and location of Twitter tweets in Python.
 * [SQL fundamentals](https://github.com/sarahleejane/Playing-SQL) - wrote complex queries to enable keyword searches and matrix multiplication in SQL.
