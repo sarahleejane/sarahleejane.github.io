@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "feature engineering for Washington DC bikeshare kaggle competition with Python"
-date:   201-01-11 22:49:28
+date:   20-01-11 22:49:28
 categories: Learning Python
-image: /assets/defaulttitle.jpg
+image: /assets/bike.png
 ---
 
 Prepare features ready for a scikit-learn model.  
