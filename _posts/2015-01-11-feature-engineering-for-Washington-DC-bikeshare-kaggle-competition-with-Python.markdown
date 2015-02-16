@@ -13,7 +13,7 @@ Let's pull in the data from a csv file, engineer the features using Pandas, then
 
 Kaggle is hosting a [Bike Sharing Demand competition](https://www.kaggle.com/c/bike-sharing-demand). This dataset was provided by Hadi Fanaee Tork using data from Capital Bikeshare.
 
-The hourly rental data spanning two years has been procided. For this competition, the training set is comprised of the first 19 days of each month, while the test set is the 20th to the end of the month. 
+The hourly rental data spanning two years has been provided. For this competition, the training set is comprised of the first 19 days of each month, while the test set is the 20th to the end of the month. 
 
 ### Pull in the data from CSV
 Use pandas to read the csv file called *train.csv*.  Stipulate the header is in row 0 and skip any bad line errors.
