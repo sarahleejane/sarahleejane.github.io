@@ -74,7 +74,7 @@ For each table in the list, the table title is shown, and then the table itself.
 	{% endraw %}
 
 ### Style the tables with css
-We can use the following styling the make the tables a bit more pretty.  The classes *male* and *female* have been defined with different header colours.  This enables us to highlight different groups of tabled data from the initial *site_tables.py* script.
+We can use the following styling to make the tables a bit more pretty.  The classes *male* and *female* have been defined with different header colours.  This enables us to highlight different groups of tabled data from the initial *site_tables.py* script.
 
 Some nice touches include using *tr:nth-child(odd)* and *tr:nth-child(even)* to have alternate row colours.  Also *tr:hover* gives an interactive feel to the tables.
 
